@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+      }
+
+      .box {
+        height: 400px;
+        width: 800px;
+        background-color: bisque;
+        border: black 3px solid;
+        margin: 0px;
+      }
+      .animated h1 {
+        animation-name: example;
+        animation-duration: 5s;
+        position: relative;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        animation-timing-function: linear;
+      }
+
+      @keyframes example {
+        from {
+          left: 0;
+        }
+        to {
+          left: 650px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <div class="animated"><h1>Hello guys</h1></div>
+    </div>
+  </body>
+</html>

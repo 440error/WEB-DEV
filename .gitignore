@@ -1,0 +1,7 @@
+# Ignore CSS files
+*.css
+
+# Ignore PNG, JPG, and JPEG image files
+*.png
+*.jpg
+*.jpeg
