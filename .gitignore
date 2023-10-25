@@ -3,9 +3,10 @@
 *.js
 *.php
 
-# Ignore PNG, JPG, and JPEG image files
+# Ignore PNG, JPG, WEBP, MP4 and JPEG image files
 *.png
 *.jpg
-*.jpeg
+
 *.webp
 *.mp4
+*.jpeg
