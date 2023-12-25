@@ -13,6 +13,10 @@
     <img src="2.gif" id="myimage" style="width: 100px;">
     <button id="b2" onclick="function2()">Turn off</button>
 
+<br>
+    <button id="b3" style="margin-top: 2rem;" >Click</button>
+    <p id="demo"></p>
+
     <script>
         function function1() {
             document.getElementById('myimage').src="1.gif";
@@ -20,6 +24,12 @@
         }
         function function2() {
             document.getElementById("myimage").src="2.gif";
+        }
+
+        document.getElementById("b3").addEventListener("click",eventfunction)
+
+        function eventfunction() {
+            document.getElementById("demo").innerHTML="This is a event listener....";
         }
     </script>
 </body>
