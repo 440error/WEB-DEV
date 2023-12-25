@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>This is a JavaScript Program</h1>
+    <h5>It can change the buld on and off using 2 images and onclick listener</h5>
+
+    <button id="b1" onclick="function1()" >Turn on</button>
+    <img src="2.gif" id="myimage" style="width: 100px;">
+    <button id="b2" onclick="function2()">Turn off</button>
+
+    <script>
+        function function1() {
+            document.getElementById('myimage').src="1.gif";
+            
+        }
+        function function2() {
+            document.getElementById("myimage").src="2.gif";
+        }
+    </script>
+</body>
+</html>
