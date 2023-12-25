@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let company = `[
+  {
+    "name": "Apple",
+    "Emp": 10000,
+    "Location": "Gurugram",
+    "Ceo": null
+  },
+  {
+    "name": "Fb",
+    "Emp": 1000,
+    "Location": "Delhi",
+    "Ceo": "Ayush"
+  },
+  {
+    "name": "Meta",
+    "Emp": 80000,
+    "Location": "banglore",
+    "Ceo": "pk"
+  }
+]`;
+
+      console.log(company);
+
+      const company2=JSON.parse(company) ;                 //parses the sring to object type
+      console.log(company2);
+
+
+      const company3=JSON.stringify(company2);
+      console.log(company3);
+    </script>
+  </body>
+</html>

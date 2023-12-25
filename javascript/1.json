@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Apple",
+    "Emp": 10000,
+    "Location": "Gurugram",
+    "Ceo": null
+  },
+  {
+    "name": "Fb",
+    "Emp": 1000,
+    "Location": "Delhi",
+    "Ceo": "Ayush"
+  },
+  {
+    "name": "Meta",
+    "Emp": 80000,
+    "Location": "banglore",
+    "Ceo": "pk"
+  }
+]
