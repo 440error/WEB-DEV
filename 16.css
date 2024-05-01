@@ -1,0 +1,13 @@
+body{
+    background-color: bisque;
+    border: solid 2px green;
+    border-radius: 5px;
+    margin-left: 10px;
+    padding: 10px;
+    height: 50vh;
+    width: 70vw;
+}
+.bluelock{
+    font-size: 2rem;
+    background-color:sandybrown ;
+}

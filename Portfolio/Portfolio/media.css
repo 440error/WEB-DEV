@@ -1,0 +1,49 @@
+/* Media Queries for Responsive Design */
+@media screen and (max-width: 700px) {
+  header {
+    flex-direction: column;
+    font-size: 8px;
+    text-align: center;
+    align-items: center;
+    padding-left: 0px;
+  }
+
+  .logo {
+    height: 20px;
+    width: 25px;
+  }
+
+  .ul {
+    padding-left: 0px;
+  }
+
+  nav ul {
+    text-align: center;
+  }
+
+  nav ul li {
+    display: block;
+    margin: 10px 0;
+  }
+
+  .centered h1 {
+    margin-bottom: 10px;
+  }
+
+  .project-grid {
+    grid-template-columns: 1fr; /* Display one column per row */
+  }
+
+  .project-box {
+    width: 80%; /* Adjust the box width for full width */
+  }
+
+  #skills {
+    height: 800px;
+  }
+
+  .social-icons a {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}

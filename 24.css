@@ -1,0 +1,145 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #dbe1e7;
+  background-image: linear-gradient(62deg, #c8cbcf 0%, #d6d3da 100%);
+  
+}
+header {
+  min-height: 80px;
+
+  background-color: #080808;
+  background-image: linear-gradient(160deg, #080808 0%, #283631 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+nav {
+  width: 100%;
+}
+
+#navlist {
+  padding: 10px;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 20px;
+  color: azure;
+}
+
+#items {
+  display: flex;
+  gap: 20px;
+}
+a {
+  color: azure;
+}
+
+
+
+
+#contentbox{
+  width: 50%;
+  margin: auto;
+  /* position: relative; */
+  background-color: #dbe1e7;
+  background-image: linear-gradient(62deg, #ebedf0 0%, #ffffff 100%);
+  border: black solid 2px;
+  box-shadow: 0px 0px 30px rgb(3, 3, 3);
+  
+  
+  /* display: flex;
+  gap: 100px; */
+
+}
+.item1{
+  display: flex;
+  justify-content: space-between;
+}
+
+.item2{
+  display: flex;
+  justify-content: space-between;
+}
+
+.leftbox{
+display: flex;
+gap: 20px;
+flex-direction: column;
+  margin: 20px;
+  padding: 20px;
+  
+}
+
+.leftbox h1{
+  font-size: 2rem;
+  padding: 10px;
+  text-align: center;
+}
+.ingredients{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 1.1rem;
+  padding-top: 10px;
+}
+.recipe{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 1rem;
+  padding-top: 10px;
+  
+}
+ol li{
+  padding: 5px;
+}
+.rightbox{
+  position: relative;
+  box-shadow: 1px 1px 10px black;
+    border-radius: 20px;
+    height: 350px;
+    top: 110px;
+    margin: 25px;
+}
+.rightbox img{
+  float: right;
+  height: 350px;
+  position: relative;
+  border-radius: 20px;
+  transition: all 0.5s linear 0s;
+}
+.rightbox img:hover{
+  transform: scale(1.1);
+  
+}
+
+
+
+footer {
+  background-color: #080808;
+  background-image: linear-gradient(160deg, #080808 0%, #283631 100%);
+  min-height: 40px;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: azure;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer a{
+position: absolute;
+  right: 0px;
+
+ 
+}
+footer img{
+  width: 60%;
+  
+  
+}

@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,500;6..96,900&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(9, 33, 7);
+  background: radial-gradient(circle, rgb(3, 28, 1) 0%, rgb(4, 33, 13) 100%);
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  
+}
+
+.leftbox {
+  border: solid rgb(155, 147, 147) 3px;
+  color: rgb(224, 222, 219);
+  padding: 10px;
+  margin-left: 3rem;
+  height: 50%;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  box-shadow: 0 10px 20px rgba(96, 93, 93, 0.19),
+    0 6px 6px rgba(76, 74, 74, 0.23);
+}
+
+.leftbox h1 {
+  text-align: center;
+  font-family: "Bodoni Moda", serif;
+  text-shadow: 1px 1px 1px rgb(75, 75, 72);
+}
+
+.leftbox h4 {
+  padding: 20px;
+  text-align: center;
+}
+
+
+.rightbox {
+  display: grid;
+  gap: 20px;
+  grid-auto-rows: 120px;
+  grid-template-areas:
+    "f1 f2 f2"
+    "f1 f3 f4"
+    "f5 f5 f4"
+    "f6 f7 f7";
+
+  color: white;
+  text-align: center;
+}
+
+
+
+.f1 {
+  grid-area: f1;
+}
+.f2 {
+  grid-area: f2;
+}
+.f3 {
+  grid-area: f3;
+}
+.f4 {
+  grid-area: f4;
+}
+.f5 {
+  grid-area: f5;
+}
+.f6 {
+  grid-area: f6;
+}
+.f7 {
+  grid-area: f7;
+}
+
+.box img {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+    background-position: top;
+  
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+
+ 
+  /* cursor: pointer; */
+}
+
+.box:hover {
+  background-color: #999;
+ background-position: center;
+  box-shadow: 0 0 4px #fff;
+}
+
+.box {
+  
+ 
+
+  background-color: #222;
+  background-blend-mode: hard-light;
+  transition: all 1s ease-in-out;
+ 
+}
+
+
+.box {
+  position: relative;
+}
+
+
+

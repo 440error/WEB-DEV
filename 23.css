@@ -1,0 +1,30 @@
+body {
+  margin: 0px;
+  box-sizing: border-box;
+}
+.container {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(213, 213, 83);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box {
+  height: 200px;
+  width: 300px;
+  background-color: beige;
+  border: 2px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 3s linear 1s; 
+}
+.box:hover {
+    transform:translate(250px,250px);
+    transform: scale(.5);
+    transform: skew(45deg);
+
+    /* The property at last will  be applied  since it follows an order */
+}
+
