@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8" />
-    <title>Prakhar - Portfolio</title>
+    <title>Prakhar </title>
     <link rel="stylesheet" href="event.css">
 
     <style>
@@ -14,30 +14,35 @@
     </style>
   </head>
   <body>
-    <header>
+    <header class="navbar">
       <div>
         <a href="">
-        <img src="Portfolio/newlogo.png" alt="Your Logo" class="logo" />
+        <img src="" alt="Your Logo" class="logo" />
       </a>
       </div>
       <nav>
         <ul class="ul">
           <li><a href="#home">Home</a></li>
-          <li><a href="#events">Events</a></li>
-          <li><a href="#login">Login</a></li>
-          <li><a href="#register">Register</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="loginbutton.html">Login</a></li>
+          <li><a href="register.html">Register</a></li>
+          <li><a href="contact.html">Contact</a></li>
         </ul>
       </nav>
+      <div class="side-buttons">
+        <!-- Side buttons for navigation -->
+        <button onclick="toggleNav()">☰</button>
+      </div>
     </header>
 
+    <script src="script.js"></script>
     
     
     
    
 
     <section id="about" class="centered">
-      <h1 class="animated-heading" id="typed-text"></h1>
+      
       <h1>Welcome </h1>
       <hr />
       <p>
@@ -45,12 +50,13 @@
       </p>
     </section>
 
-    <section id="projects">
+    <section id="cards">
       <h1>Upcoming events</h1>
 
       <div class="container">
+
         <div class="boxy">
-          <img class="img1" src="icon.jpg" alt="icon" />
+          <img class="img1" src="44.jpg" alt="icon" />
           <h2>Event 1</h2>
           <p>
             Lorem 
@@ -60,7 +66,7 @@
 
 
         <div class="boxy">
-          <img class="img1" src="icon.jpg" alt="icon" />
+          <img class="img1" src="33.jpg" alt="icon" />
           <h2>Event 2</h2>
           <p>
             Lorem 
@@ -70,7 +76,7 @@
 
 
         <div class="boxy">
-          <img class="img1" src="icon.jpg" alt="icon" />
+          <img class="img1" src="11.jpg" alt="icon" />
           <h2>Event 3</h2>
           <p>
             Lorem 
@@ -81,7 +87,7 @@
 
         
         <div class="boxy">
-          <img class="img1" src="icon.jpg" alt="icon" />
+          <img class="img1" src="22.jpg" alt="icon" />
           <h2>Event 4</h2>
           <p>
             Lorem 
@@ -100,27 +106,27 @@
         
       </section>
 
-        <section id="skills">
+        <section id="main">
           <h1>Big events this year</h1>
-          <div class="skills-container">
-            <div class="skill">
+          <div class="event-conatiner">
+            <div class="mainevents">
               <h3>Annual fest </h3>
               <p>
-                To be scheduled in March
+                MARCH 11 2024
               </p>
             </div>
         
-            <div class="skill">
-              <h3>Hackathon</h3>
+            <div class="mainevents">
+              <h3> ANNUAL Hackathon</h3>
               <p>
-                Scheduled in August
+                AUGUST 21 2024
               </p>
             </div>
         
-            <div class="skill">
-              <h3>Sports meet</h3>
+            <div class="mainevents">
+              <h3>SPORTS DAY</h3>
               <p>
-                Novemeber 
+                Novemeber 14 2024
               </p>
             </div>
           
